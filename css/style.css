@@ -49,7 +49,31 @@ footer a:hover{
     color: orangered;
 }
 
+.animacion{
+color: darkblue; 
+animation-name: gorra;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-delay: 2s;
+}
 
+@keyframes gorra {
+    0%{
+    color: blue;
+    }
+    25%{
+       color: blueviolet; 
+    }
+    50%{
+        color: purple;
+    }
+    75%{
+        color: black;
+    }
+    100%{
+        color: blue;
+    }
+}
 
 h3{
     color: rgb(12, 14, 14);
