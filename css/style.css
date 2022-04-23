@@ -19,13 +19,12 @@ header{
     display: flex;
     text-transform: uppercase;
     justify-content: space-between;
-    background-color: rgb(212, 84, 37);
+    background-image: linear-gradient(to right, orange, red, purple, black, gray );
 }
 
 nav{
     display: flex;
     flex-direction: row;
-    background-color: rgb(212, 84, 37);
     font-family: 'Nunito', sans-serif;
 }
 
@@ -41,11 +40,6 @@ li{
 nav a{
     text-decoration: none;
     color: rgb(253, 229, 229);
-}
-
-
-.contenedor__hijo__nav{
-    background-color: rgb(212, 84, 37);
 }
 
 h3{
@@ -86,12 +80,14 @@ button{
 }
 
 img{
+    max-width: 100%;
     width: 100%;
     height: 300px;
 }
 
 footer{
     margin-top: 100px;
+    background-image: linear-gradient(to right, orange, red, purple, black, gray );
 
 }
 .contenedor__hijo__info{
